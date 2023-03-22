@@ -1,0 +1,12 @@
+生成一个CMakeList文件，
+其中可以版本号可配置主版本和次版本好，
+使用c++20，支持module，concept特性，
+支持根据选项生成执行文件，动态库，静态库，
+根据选项分别有Debug，Release编译配置，
+支持x64，x86，arm等架构，
+支持windows，linux，macos平台，
+在根目录下有thirdparty目录，其中包含spdlog和boost库，需要依赖，
+还依赖查找系统中的opencv库，vulkan,metal,dx12,
+并且提供可选的安装路径选项，支持安装测试模块，
+其中源文件在src目录下，src目录下分为各个子模块，主要包含core，misc，
+其中模块下包含public和private文件夹，其中各有inlcude目录，public是对外的，private是私有的
